@@ -21,7 +21,7 @@ public class Input {
         Scanner userInput = new Scanner(System.in);
         Scanner scanClear = new Scanner(System.in);
 
-        MrCoxallStackV4 clasStack = new MrCoxallStackV4();
+        MrCoxallStack clasStack = new MrCoxallStack();
 
         try {
             // accepts input on how many integers program should accept

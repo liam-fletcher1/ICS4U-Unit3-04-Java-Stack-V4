@@ -1,5 +1,5 @@
 /*
-* The Mr.Coxall Stack Program
+* The Mr. Coxall Stack Program
 *
 * @author  Liam Fletcher
 * @version 1.0
@@ -9,7 +9,7 @@
 // Import the Scanner class
 import java.util.Scanner;
 
-public class Input {
+public class StackInputV4 {
 
   /**
   * This program recieves input and adds values onto our pseudo-stack.
@@ -27,7 +27,7 @@ public class Input {
     Scanner scanClear = new Scanner(System.in);
 
     // references MrCoxallStack file 
-    MrCoxallStack clasStack = new MrCoxallStack();
+    MrCoxallStackV4 clasStack = new MrCoxallStackV4();
 
     // ensures that user inputs only integer values
     try {
